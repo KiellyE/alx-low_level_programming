@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main Entry point
+ * main - Entry point
  * Description: 'prints all possible combinations of two digits'
  * Return: Always 0 (Success)
  */
