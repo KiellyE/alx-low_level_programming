@@ -7,7 +7,7 @@
  * Return: Always 0 (success)
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
@@ -16,7 +16,13 @@ unsigned int _strspn(char *s, char *accept);
 	{
 		for (r = 0; accept[r]; r++)
 		{
-			if unsigned int _strspn(char *s, char *accept);
+			if (*s == accept[r])
+			{
+				n++;
+				break;
+			}
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
 		s++;
 	}
